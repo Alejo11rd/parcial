@@ -1,0 +1,116 @@
+/* General Styles */
+body {
+    background-color: #f0f4f8; /* Fondo claro con tono azul */
+    color: #333333; /* Texto en color oscuro */
+}
+
+/* Header Styles */
+.header {
+    background-color: #0066cc; /* Azul vibrante */
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #004a99; /* Borde inferior azul más oscuro */
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+h1 { font-size: 36px; margin-bottom: 10px; }
+h2 { font-size: 24px; margin-bottom: 10px; }
+
+/* Top Navigation Links */
+.topnav {
+    display: flex;
+    justify-content: center;
+    background-color: #004a99; /* Azul oscuro */
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 3px solid #003366; /* Borde más oscuro */
+}
+
+.topnav a {
+    display: inline-block;
+    padding: 12px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 15px;
+    background-color: #0066cc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.topnav a:hover {
+    background-color: #003366; /* Azul más oscuro en hover */
+    color: white;
+}
+
+/* Column Layout */
+.column {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra más suave */
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.column:hover {
+    transform: translateY(-5px); /* Efecto de elevación */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2); /* Sombra más profunda al hacer hover */
+}
+
+.column img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%; /* Imagen responsiva */
+    border-radius: 10px;
+}
+
+.column.side { width: 50%; }
+.column.middle { width: 50%; }
+
+.column h2 { 
+    color: #0066cc; /* Azul vibrante para los títulos */
+    margin-bottom: 15px; 
+    font-size: 22px;
+    border-bottom: 2px solid #004a99; /* Subrayado decorativo */
+    padding-bottom: 5px;
+}
+.column p {
+    font-size: 16px;
+    line-height: 1.8; /* Espaciado más amplio */
+    color: #666666; /* Texto gris oscuro */
+}
+
+@media screen and (max-width: 600px) {
+    .column { width: 100%; }
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #003366; /* Azul oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-top: 5px solid #004a99; /* Borde superior más claro */
+}
+
+/* Miscellaneous */
+h3 {
+    margin-top: 20px;
+    color: #0066cc; /* Azul vibrante */
+}
+
+h2, h3 {
+    margin-bottom: 10px;
+}
+p {
+    margin-bottom: 10px;
+    color: #666666; /* Gris oscuro */
+}
+
